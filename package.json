@@ -1,0 +1,18 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "430 streaming media assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"No Tests\"",
+    "start": "node ./src/server.js"
+  },
+  "author": "Brevin Horton",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.30.0"
+  }
+}
